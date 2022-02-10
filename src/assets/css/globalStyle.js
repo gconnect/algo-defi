@@ -23,7 +23,13 @@ const GlobalStyle = createGlobalStyle`
   background: #B523A6;
   border-color: #B523A6;
   color: #fefefe;
-  font-weight: 700
+  font-weight: 700;
+  
+  &:hover {
+    background: #B523A6;
+    border-color: #B523A6;
+    color: #fefefe;
+  }
 }
 
 body {

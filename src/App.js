@@ -11,6 +11,8 @@ import Home from './pages/Home'
 import Pool from './pages/Pool'
 import Index from './pages/Index'
 import Asset from './pages/Asset'
+import Swap from './pages/Swap'
+import Stake from './pages/Stake'
 import NotFound from './pages/NotFound'
 import PoolDetail from './pages/PoolDetail'
 import CreatePool from './pages/CreatePool'
@@ -27,8 +29,8 @@ function App() {
   const dispatch = useDispatch()
   const appLinks = [
     { link: '/assets', title: 'Assets' },
-    { link: '/enter-bazaar', title: 'Swap' },
-    { link: '/engage-circles', title: 'Stake' },
+    { link: '/swap', title: 'Swap' },
+    { link: '/stake', title: 'Stake' },
     { link: '/pool', title: 'Pools' }
   ]
 
@@ -56,6 +58,8 @@ function App() {
         <Route path='/create-pool2' element={<CreatePool2/>}/>
         <Route path='/home' element={<Home/>}/>
         <Route path='/pool' element={<Pool/>}/>
+        <Route path='/swap' element={<Swap/>}/>
+        <Route path='/stake' element={<Stake/>}/>
         <Route path='/*' element={<NotFound/>}/>
       </Routes>
       <AppFooter />
