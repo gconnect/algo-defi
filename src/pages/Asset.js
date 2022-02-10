@@ -1,6 +1,5 @@
 import { Table, List, Card } from 'antd'
 
-import asset from '../assets/img/asset.png'
 import { Wrapper } from '../components/Styles/Assets.styles'
 
 const lists = [
