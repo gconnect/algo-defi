@@ -3,7 +3,7 @@ import {Table, Button} from 'antd'
 import { Wrapper } from '../components/Styles/Home.styles'
 
 const columns = [
-{title: 'ASSET', dataIndex: 'name', render: (text, rec) => <a href="#">yieldy</a>  },
+{title: 'ASSET', dataIndex: 'name', render: (text, rec) => <a href="/">yieldy</a>  },
 {title: 'Composition', dataIndex: 'comp'},
 {title: 'My Balance', dataIndex: 'bal'},
 {title: 'Pool Value', dataIndex: 'pool'},

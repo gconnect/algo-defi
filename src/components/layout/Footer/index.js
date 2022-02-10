@@ -10,22 +10,22 @@ const AppFooter= () => {
     <Footer>
       <div>
         <img style={{ marginBottom: '20px' }} src={logo} alt="algofinance"/>
-        <Link to="#">Pool</Link>
-        <Link to="#">Swap</Link>
-        <Link to="#">Assets</Link>
+        <Link to="/">Pool</Link>
+        <Link to="/">Swap</Link>
+        <Link to="/assets">Assets</Link>
       </div>
       <div>
         <FootTitle>Governance</FootTitle>
-        <Link to="#">Stake</Link>
-        <Link to="#">Vote</Link>
-        <Link to="#">Claim Reward</Link>
+        <Link to="/">Stake</Link>
+        <Link to="/">Vote</Link>
+        <Link to="/">Claim Reward</Link>
       </div>
       <div>
         <FootTitle>Learn</FootTitle>
-        <Link to="#">Blog</Link>
-        <Link to="#">Documentation</Link>
-        <Link to="#">White Paper</Link>
-        <Link to="#">Github</Link>
+        <Link to="/">Blog</Link>
+        <Link to="/">Documentation</Link>
+        <Link to="/">White Paper</Link>
+        <Link to="/">Github</Link>
       </div>
       <div>
         <FootTitle>Community</FootTitle>

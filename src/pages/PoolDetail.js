@@ -73,7 +73,7 @@ const PoolDetail = () => {
         <Table columns={columns} dataSource={data} size="small" />
       </div>
       <div>
-        <Card size="small" title="My Pool Balance" extra={<a href="#">-</a>}>
+        <Card size="small" title="My Pool Balance" extra={<a href="/pool">-</a>}>
           <div className="right-card">
             <div>
               <img src={algo} alt="algofinance"/>
