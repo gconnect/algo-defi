@@ -3,9 +3,10 @@ import logo1 from '../../assets/img/myalgo.png'
 import logo2 from '../../assets/img/algo.png'
 import algosigner from '../../assets/img/algosigner.jpeg'
 import { Wrapper, Logo, Button } from './Wallets.styles'
+import { useRef } from 'react'
 
 const Wallets = () => {
-  const [showAccount, setShowAccount]= useState(false)
+  // const [showAccount, setShowAccount]= useState(false)
   const userAccount = useRef()
 
   //Connect Algosigner
