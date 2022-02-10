@@ -113,7 +113,7 @@ const CreatePool = () => {
             <p><b>$0.00</b></p>
           </div>
         </Card>
-        <Card size="small" title="Pool Token in my wallet" extra={<a href="#">-</a>}>
+        <Card size="small" title="Pool Token in my wallet" extra={<a href="/">-</a>}>
           <div className="right-card">
             <div>
               <span className="span">ALGO <br/><small>Algorand</small></span>
