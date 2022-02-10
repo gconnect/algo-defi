@@ -1,7 +1,7 @@
 /*global AlgoSigner*/
 import logo1 from '../../assets/img/myalgo.png'
 import logo2 from '../../assets/img/algo.png'
-import algosigner from '../../assets/img/algosigner'
+import algosigner from '../../assets/img/algosigner.jpeg'
 import { Wrapper, Logo, Button } from './Wallets.styles'
 
 const Wallets = () => {
