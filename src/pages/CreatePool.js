@@ -21,7 +21,7 @@ const CreatePool = () => {
               <span>0</span>
             </div>
             <div className="apart">
-              <span>Balance: 10 <a href="#">Max</a></span>
+              <span>Balance: 10 <a href="/">Max</a></span>
               <span>0.012</span>
             </div>
           </div>
