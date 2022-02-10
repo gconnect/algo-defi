@@ -31,7 +31,7 @@ const CreatePool = () => {
               <span>0</span>
             </div>
             <div className="apart">
-              <span>Balance: 10 <a href="#">Max</a></span>
+              <span>Balance: 10 <a href="/">Max</a></span>
               <span>0.012</span>
             </div>
           </div>
@@ -41,7 +41,7 @@ const CreatePool = () => {
               <span>0</span>
             </div>
             <div className="apart">
-              <span>Balance: 10 <a href="#">Max</a></span>
+              <span>Balance: 10 <a href="/">Max</a></span>
               <span>0.012</span>
             </div>
           </div>
@@ -87,7 +87,7 @@ const CreatePool = () => {
         />
       </div>
       <div>
-        <Card size="small" title="My Pool Balance" extra={<a href="#">-</a>}>
+        <Card size="small" title="My Pool Balance" extra={<a href="/">-</a>}>
           <div className="right-card">
             <div>
               <span className="span">ALGO <br/><small>Algorand</small></span>
